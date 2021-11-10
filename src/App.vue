@@ -1,26 +1,62 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<main class="app-wrapper">
+  <Header />
+  <router-view/>
+  <Footer />
+</main>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 
 export default {
-  name: 'App',
+  name: 'manage',
   components: {
-    HelloWorld,
+    Header,
+    Footer,
   },
 };
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --space-xxs:4px;
+  --space-xs:8px;
+  --space-s: 16px;
+  --space-m:24px;
+  --space-l:32px;
+  --space-xl:40px;
+  --space-xxl:48px;
+  --component-padding:var(--space-m);
+
+  .app-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin: var(--space-xl) var(--space-m) 0;
+
+    transition:all .3s ease-in;
+
+    @media (min-width:1488px){
+      margin: 56px auto 0;
+    }
+  }
 }
 </style>

@@ -1,24 +1,17 @@
-# manage
+# Frontend Mentor - Manage landing page
 
-## Project setup
-```
-npm install
-```
+![Design preview for the Manage landing page coding challenge](src/images/desktop-preview.jpg)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Introduction 👋
 
-### Lints and fixes files
-```
-npm run lint
-```
+My attempt to the [Frontend Mentor](https://www.frontendmentor.io) challenge [Bookmark landing page](https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5).
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+***
+
+## Briefing
+
+* View the optimal layout for the site depending on their device's screen size
+* Create a horizontal slider and view all testimonials
+* Error Message on the Newsletter Sign-up
+* Test-drive my [Snaple](https://github.com/isy-creates/snaple) SCSS Skeleton 
