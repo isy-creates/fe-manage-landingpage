@@ -1,19 +1,19 @@
 <template>
   <header class="header">
     LOGO
-    <Menu v-show="mobile">HAMBURGER</Menu>
+    <mobileMenu v-show="mobile" />
     <nav class="nav" v-show="!mobile">NAVIGATION</nav>
     <a href="#" class="btn" v-show="!mobile">Get Started</a>
   </header>
 </template>
 
 <script>
-import Menu from './MobileMenu.vue';
+import mobileMenu from './MobileMenu.vue';
 
 export default {
   name: 'header',
   components: {
-    Menu
+    mobileMenu
   },
   data() {
     return {
