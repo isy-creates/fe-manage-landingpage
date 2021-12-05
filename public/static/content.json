@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Pricing",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "name": "Product",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "name": "About us",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "name": "Careers",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "name": "Community",
+    "link": "#"
+  }
+]
